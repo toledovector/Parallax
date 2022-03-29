@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h3,h4,h5,h6{
+    border: 5px solid #fff ;
+    font-weight: 900;
+    color: rgb(84, 84, 85);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 30px 5px rgba(5, 247, 187, 0.705);
+}
+
+h2{
+    
+    color: #535353;
+    border: none;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+main{
+    display: block;
+    background-color: #fff;
+
+}
+
+.container{
+    
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+}
+
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-bacground-size:cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 30%, rgba(3, 3, 3, 0.918) 100%);
+}
+
+section.module.parallax-1{
+    background-image: url(AGUA.jpg);
+    margin-top: 0 10px;
+   
+}
+
+section.module.parallax-2{
+    background-image: url(PEDRA.jpg);
+    margin-top: 0 10px;
+}
+
+section.module.parallax-3{
+    background-image: url(FOGO.jpg);
+    margin-top: 0 10px;
+}
+
+section.module.parallax-4{
+    background-image: url(CEU.jpg);
+    margin-top: 0 10px;
+}
+
+section.module.parallax h1{
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+    text-shadow: 4px 5px 30px #000, 8px 10px 40px rgb(20, 20, 20);
+    cursor: pointer;
+
+ }   
